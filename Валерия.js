@@ -44,19 +44,6 @@ const sayMessage1 = args.join(" ");
  
  });
 
-bot.on('message', message => { 
-    var prefix = '!' 
-    var msg = message.content; 
-
-    if (msg === prefix + 'image') { 
-     message.channel.send('Message that goes above image', { 
-      files: [ 
-       "./image-to-send.png" 
-      ] 
-     }); 
-    } 
-}); 
- 
 client.on('guildMemberAdd', member => {
     member.guild.channels.get('432864200864301059').send('<:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> **' + member.user + '**, приветствую тебя, Воин! <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> \n Прочти правила сервера, чтобы не налажать: https://discord.gg/X6u9ubv'); 
 	});
