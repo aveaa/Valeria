@@ -35,16 +35,6 @@ var prefix = '!'
   .catch(console.error); 
      		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 	 }
-	if(message.content.startsWith(prefix + 'image')) {
-        message.delete()
-  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
-  .catch(console.error); 
-		message.channel.send('Message that goes above image', { 
-      files: [ 
-       "./image-to-send.png" 
-      ] 
-     }); 
- }
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
     if(message.content.startsWith(prefix + 'calc')) {
@@ -53,6 +43,19 @@ const sayMessage1 = args.join(" ");
      } 
  
  });
+
+bot.on('message', message => { 
+    var prefix = '!' 
+    var msg = message.content; 
+
+    if (msg === prefix + 'image') { 
+     message.channel.send('Message that goes above image', { 
+      files: [ 
+       "./image-to-send.png" 
+      ] 
+     }); 
+    } 
+}); 
  
 client.on('guildMemberAdd', member => {
     member.guild.channels.get('432864200864301059').send('<:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> **' + member.user + '**, приветствую тебя, Воин! <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> \n Прочти правила сервера, чтобы не налажать: https://discord.gg/X6u9ubv'); 
