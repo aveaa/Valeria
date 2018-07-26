@@ -54,4 +54,4 @@ client.on('guildMemberRemove', member => {
     // channel-id - Надо вводить ид канала куда будет писаться это сообщение
 });
 
-client.login('NDU5Mzk1NDQ0MjQ2NTc3MTYy.DhHKwQ.hgNkjteMZ2-DQxMlw0IpxV_bBG0');
+client.login(process.env.BOT_TOKEN);
