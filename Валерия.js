@@ -35,6 +35,16 @@ var prefix = '!'
   .catch(console.error); 
      		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 	 }
+	if(message.content.startsWith(prefix + 'image')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+		message.channel.send('Message that goes above image', { 
+      files: [ 
+       "./image-to-send.png" 
+      ] 
+     }); 
+ }
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
     if(message.content.startsWith(prefix + 'calc')) {
