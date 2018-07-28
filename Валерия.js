@@ -361,6 +361,85 @@ message.channel.send({
 .then(console.log)
 .catch(console.error);
 }
+
+if(message.content.startsWith(prefix + 'luckercia')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/9dd790c84264c44a91a1136648725ff27788fd00405e95c332379752b58793c9/5b5c297a/_B0aXmp4RJTYYcc2mgnKlqQgAsWsRj7foDVBFOfYuyyZQuQMssY3X9z3K0ySq_0aV5eTTwcNonX5U5iIiIjYyg%3D%3D?uid=0&filename=Luckrecia.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Luckrecia.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+if(message.content.startsWith(prefix + 'naadir')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/1d94bd60e5963e2288fe94520c705fe64f6de6ab96e4a998b2526d57e2c7fead/5b5c29cc/_B0aXmp4RJTYYcc2mgnKlqS3tRGq-KoEDKvb7UNNzj5M3m-TLjXszSG8KXQLl0p6sUmDnTC7CxD7zxJIqDI_xw%3D%3D?uid=0&filename=Naadir.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Naadir.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+if(message.content.startsWith(prefix + 'orson')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/4c06b512189e6a934a5eee998d283da6de48c30ede96aa3fa92dc0e01f6fd573/5b5c2a3e/_B0aXmp4RJTYYcc2mgnKlmQKd3p0Whjf2U6keUlO77C1gMHksfY0eY7IUHX9dogeDaPbj_4J1oX_KM2JtU44jA%3D%3D?uid=0&filename=Orson.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Orson.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+
+if(message.content.startsWith(prefix + 'zoltan')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/a769d9bd59b3a5641fcace2ce0aa9b27aa65701275dd5dd3c420696d1e614057/5b5c2a7e/_B0aXmp4RJTYYcc2mgnKlqNsb8wUp8xqHGCjJepojHcKhH_w-JzMLuAgD_tDoYwjkhpL4U8V8QyU4vuLelcPnA%3D%3D?uid=0&filename=Zoltan.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Zoltan.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+//Орден Порядка
+
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
     if(message.content.startsWith(prefix + 'calc')) {
