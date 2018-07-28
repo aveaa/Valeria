@@ -164,7 +164,7 @@ message.channel.send({
    },
    files: [{
       attachment: 'https://downloader.disk.yandex.ru/preview/4eb1c62ffc4685f820abea3b7199ee77691f6156b460be776fdb19cfb05624f8/5b5c1f51/_B0aXmp4RJTYYcc2mgnKlmZrPMPqBDJTjveOqRsM_znjQWdJ-s9qohBbDJ6f0E0_nccReKOr0slRp_FHk-xB4g%3D%3D?uid=0&filename=Shak%27Karrukat.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
-      name: 'Shak'Karrukat.png'
+      name: 'ShakKarrukat.png'
    }]
 })
 .then(console.log)
