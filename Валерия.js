@@ -518,6 +518,83 @@ message.channel.send({
 .catch(console.error);
 }
 //Северные Кланы
+if(message.content.startsWith(prefix + 'ibba')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/86f57213b8602eec11fd3f4a5f22867d21b077af430dda3cc45373ccb320dd7c/5b5c2e14/_B0aXmp4RJTYYcc2mgnKliKuhQ_u77FzpvQYbzJJFsCNCIQbgtH3vntC4OImX_hGwHlZbUvynexuntp5miQi_A%3D%3D?uid=0&filename=Ibba.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Ibba.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+if(message.content.startsWith(prefix + 'inga')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/f82176d10c8639c4199159b6ab3ffb4c9eaaa2d4e3fd1f16a49094bf17aa0dd2/5b5c2e54/_B0aXmp4RJTYYcc2mgnKlvL9TD47gcabuY8-QhF26FAji4dgsr-lskY4oxMY14zaYzxcOA9WdShlF3e1f0D-Nw%3D%3D?uid=0&filename=Inga.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Inga.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+
+if(message.content.startsWith(prefix + 'ingvar')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/440b45290716c706840f6f6f99fe528541a5faf18658ee99dedf012ff17f9bed/5b5c2e8a/_B0aXmp4RJTYYcc2mgnKlmmE49JH45wXWY9v0IbvZPdf8SDfrWMMr3sSHcgO4TSOR1T_32FVzA6yLXer9YXECQ%3D%3D?uid=0&filename=Ingvar.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Ingvar.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+
+if(message.content.startsWith(prefix + 'karli')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/7f4496ba02e53dcc9caad3a1700f7016bf6096d8998c50ae93fcf7494440cfa3/5b5c2ec4/_B0aXmp4RJTYYcc2mgnKlr2ORSfRrUgJfrPjMBLglabSo7N30f4BxM8KHQYsgkVtwp8k7MizUySpJBmNOK8FiA%3D%3D?uid=0&filename=Karli.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Karli.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
 
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
