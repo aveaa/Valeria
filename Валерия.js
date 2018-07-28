@@ -40,7 +40,7 @@ if(message.content.startsWith(prefix + 'korabl')) {
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error); 
-		message.channel.send({file: ["Valeria/BoardShip.png"]});
+		message.channel.send({file: ["BoardShip.png"]});
 	 }
 
 let messageArray = message.content.split(" ");
