@@ -49,9 +49,7 @@ message.channel.send({
       attachment: 'https://downloader.disk.yandex.ru/preview/f1dfba7a5195e0150e8d88876a2303e1e696aa0607655606b81645d7c0bf244e/5b5c1574/_B0aXmp4RJTYYcc2mgnKliqlFqb3V9vhamPlRlyisAlUKQAMdaNljKlmFMHAipEzVaH7kXIRF-M82VAHLnVIAQ%3D%3D?uid=0&filename=Djalib.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
       name: 'Djalib.png'
    }]
-})
-  .then(console.log)
-  .catch(console.error);
+});
 }
 	 
 let messageArray = message.content.split(" ");
