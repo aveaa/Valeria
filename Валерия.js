@@ -39,8 +39,7 @@ var prefix = '!'
 if(message.content.startsWith(prefix + 'file.png')) {
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
-  .catch(console.error); 
-channel.send('This is an embed', {
+  channel.send('This is an embed', {
   embed: {
     thumbnail: {
          url: 'attachment://file.png'
