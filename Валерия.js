@@ -248,6 +248,64 @@ message.channel.send({
 }
 //Лесной Союз
 
+if(message.content.startsWith(prefix + 'vinrael')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/89a955c3b6ff2a180a78adb26d844983aafe9a32a60a3fc3be1c79a62cbb227a/5b5c24d3/_B0aXmp4RJTYYcc2mgnKluOcn-5iBOhP-9h0kGRSKv-3NdsWe9y8fZujskxej9v-qu8q6OQpLh7Knynr51DWuw%3D%3D?uid=0&filename=Vinrael.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Vinrael.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+if(message.content.startsWith(prefix + 'gilraen')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/24844fd6b0cc6e6e58b6d168c629295f5dc4cf0424d387750c9755925786787d/5b5c255f/_B0aXmp4RJTYYcc2mgnKlp5L5jJ0HGaEMwjeWNjvN1RApLp5WlXHjNwV-rgPR2T8wJ5EE2iiYATitKYvrExsMQ%3D%3D?uid=0&filename=Gilraen.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'gilraen.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+if(message.content.startsWith(prefix + 'ilfina')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/dcea723e69dcd21735ceb01e9b9d0d22c3e9cc2e8998c29d1e960a5e3a1b5ccf/5b5c25bc/_B0aXmp4RJTYYcc2mgnKlmvVp8Q2Zm0gAs1LPHp-Pw7bVXjG3LK2kG0oRXJqK8iHdxRZU2PVoGYjs3GWMlIVUQ%3D%3D?uid=0&filename=Ilfina.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Ilfina.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+//Лига Теней
+
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
     if(message.content.startsWith(prefix + 'calc')) {
