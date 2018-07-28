@@ -39,7 +39,7 @@ if(message.content.startsWith(prefix + 'djalib')) {
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error); 
-message.channel.send({
+message.channel.send( 'kjk ', {
   embed: {
     thumbnail: {
          url: 'attachment://file.png'
