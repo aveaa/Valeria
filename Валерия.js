@@ -36,6 +36,21 @@ var prefix = '!'
      		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 	 }
 
+channel.send('This is an embed', {
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.jpg'
+      }
+   },
+   files: [{
+      attachment: 'entire/path/to/file.jpg',
+      name: 'file.jpg'
+   }]
+})
+  .then(console.log)
+  .catch(console.error);
+
+	 
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
     if(message.content.startsWith(prefix + 'calc')) {
