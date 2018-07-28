@@ -36,6 +36,13 @@ var prefix = '!'
      		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 	 }
 
+	 if(message.content.startsWith(prefix + sendFile)) {
+    	  message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+     		message.channel.sendFile;
+	 }
+	 
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
     if(message.content.startsWith(prefix + 'calc')) {
