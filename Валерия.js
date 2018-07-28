@@ -125,7 +125,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://downloader.disk.yandex.ru/preview/a7f8080e76fe9f0ec5c5882c2b90a624a32e07bf61824bfdafdfe0a2d99283a9/5b5c1e66/_B0aXmp4RJTYYcc2mgnKlnr1wJoBYht69x8vdJWA3wkcZN2Y4PmWzJlp67vQpn-BCIiwyrKPEyXSSEF2bWY0HA%3D%3D?uid=0&filename=Haggesh.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      attachment: 'https://yadi.sk/i/Sy2yxEQc3ZepGE',
       name: 'Haggesh.png'
    }]
 })
