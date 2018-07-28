@@ -36,22 +36,12 @@ var prefix = '!'
      		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 	 }
 
-if(message.content.startsWith(prefix + 'file.png')) {
+if(message.content.startsWith(prefix + 'korabl')) {
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
-  channel.send('This is an embed', {
-  embed: {
-    thumbnail: {
-         url: 'attachment://file.png'
-      }
-   },
-   files: [{
-      attachment: 'entire/path/to/file.png',
-      name: 'file.png'
-   }]
-})
-  .then(console.log)
-  .catch(console.error);
+  .catch(console.error); 
+		message.channel.send({file: ["./BoardShip.png"]});
+	 }
 
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
