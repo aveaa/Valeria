@@ -208,6 +208,45 @@ message.channel.send({
 .then(console.log)
 .catch(console.error);
 }
+//Инферно
+if(message.content.startsWith(prefix + 'deleb')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/84236612f01f0ac82ea67e508dac9e8a6e3dbc3461fe9a2e90eb2ad57a23ad0c/5b5c22dd/_B0aXmp4RJTYYcc2mgnKltizf0lfDj5eYsLMqmGqj43b1MZnSW6mGDnP41B9jgG87w7j1jFimIb7Lhb5fxU6Vw%3D%3D?uid=0&filename=Deleb.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Deleb.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+if(message.content.startsWith(prefix + 'djezebet')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/53e0f0ea9b03c9a0be043e24357a8ba16852b348fdf88b4338e2435bc59a80da/5b5c2338/_B0aXmp4RJTYYcc2mgnKllASZQM5jX1u5aLDjsjhYD6tfuRYkGAAzYjUT20rVJwCYalHEGvrvs-J4kx7RKf0AA%3D%3D?uid=0&filename=Djezebet.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Djezebet.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+//Лесной Союз
 
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
