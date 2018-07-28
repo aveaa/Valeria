@@ -362,7 +362,7 @@ message.channel.send({
 .catch(console.error);
 }
 
-if(message.content.startsWith(prefix + 'luckercia')) {
+if(message.content.startsWith(prefix + 'luckrecia')) {
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error); 
@@ -439,6 +439,85 @@ message.channel.send({
 .catch(console.error);
 }
 //Орден Порядка
+
+if(message.content.startsWith(prefix + 'aksel')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/044f07c3add9b4a76593043f157ebadd0fe945822944ef48a695ea49a5c1924d/5b5c2bfc/_B0aXmp4RJTYYcc2mgnKlqs47cOPjkq9WlC4-ldCAd9a4HF5Xtfnvx08dqf4p_vhjoTIow22ejROVzkPJOjXZw%3D%3D?uid=0&filename=Aksel.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Aksel.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+
+if(message.content.startsWith(prefix + 'laslo')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/bea92fc0686b5cb78d2f91ed7b2af1a987950b7752e9962916cf1e35b2e20ff5/5b5c2c34/_B0aXmp4RJTYYcc2mgnKlrMMZPbzs8kF9OGUiR6ZQx16rEImYFfCiQnjMrbZBcmPBarkXddUT5B5fxXDTVMHAQ%3D%3D?uid=0&filename=Laslo.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Laslo.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+
+if(message.content.startsWith(prefix + 'miv')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/13473132d33899c66d068bb7c10ecf91d0468ec417ede21e99036490eccf3a6a/5b5c2c81/_B0aXmp4RJTYYcc2mgnKlukcjmSxFfjpDAzKDOagSbS6IaYXKU6OkDH5WmG3IgBKpJWaitkXT6P0hc0SiNlMIA%3D%3D?uid=0&filename=Miv.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Miv.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
+if(message.content.startsWith(prefix + 'vittorio')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/a8cb37a94c6c1f9375a9f5c526a53904518263149b2aeb5db3d5139aab356610/5b5c2cc1/_B0aXmp4RJTYYcc2mgnKlgFcEYoZcJUaC1VZYEWwzewQE_EBlPXO9934qvMsvriV_hS_gABosIn7_YOy6ZQz5g%3D%3D?uid=0&filename=Vittorio.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Vittirio.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+//Северные Кланы
 
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
