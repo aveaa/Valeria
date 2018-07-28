@@ -305,7 +305,62 @@ message.channel.send({
 .catch(console.error);
 }
 //Лига Теней
+if(message.content.startsWith(prefix + 'letos')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/13ac746f5e39679ac70aa0563ae2b7d5cbed24c624971b3a4aff6d3e6b51445a/5b5c279e/_B0aXmp4RJTYYcc2mgnKlvjUJXj55SHXbsUq2X8_Q_G1ieLMzC137pmUj3vBCtn2JMTjcXFO1209LR-x2hXo_g%3D%3D?uid=0&filename=Letos.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Letos.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
 
+if(message.content.startsWith(prefix + 'sinitar')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/571dbe2b70150d1c45477ea4ba8d22bfe9d7d2e9b9ccba52cac7be90be1d286a/5b5c27f0/_B0aXmp4RJTYYcc2mgnKlrbyYrA7Kq7dbH69BjnkVSmjHTdrwHvaX_DVyu4B0PAHUziIIHcpy9GG7ue7GCkxbw%3D%3D?uid=0&filename=Sinitar.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Sinitar.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+//Некрополис
+if(message.content.startsWith(prefix + 'deidra')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'https://downloader.disk.yandex.ru/preview/b1d4e81c59adfd17dcdccbb22a12f7e98ad84197aa846199cee92c92dde45109/5b5c2852/_B0aXmp4RJTYYcc2mgnKlk-xVuvP_XStjjyOZvF4kM39PyXjIIVgRun4NqIGxQes91vn2xn4vYFraOZC6xzn8A%3D%3D?uid=0&filename=Deidra.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      name: 'Deidra.png'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
     if(message.content.startsWith(prefix + 'calc')) {
