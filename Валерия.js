@@ -35,6 +35,25 @@ var prefix = '!'
   .catch(console.error); 
      		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 	 }
+
+if(message.content.startsWith(prefix + 'file.png')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+channel.send('This is an embed', {
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.png'
+      }
+   },
+   files: [{
+      attachment: 'entire/path/to/file.png',
+      name: 'file.png'
+   }]
+})
+  .then(console.log)
+  .catch(console.error);
+
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
     if(message.content.startsWith(prefix + 'calc')) {
