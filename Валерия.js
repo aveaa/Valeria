@@ -35,11 +35,14 @@ var prefix = '!'
   .catch(console.error); 
      		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 	 }
-
+if(message.content.startsWith(prefix + 'djalib')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
 channel.send('This is an embed', {
   embed: {
     thumbnail: {
-         url: 'attachment://file.jpg'
+         url: 'attachment://yadi.sk/i/FFbmoIqe3ZeoCZ'
       }
    },
    files: [{
@@ -49,7 +52,7 @@ channel.send('This is an embed', {
 })
   .then(console.log)
   .catch(console.error);
-
+}
 	 
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
