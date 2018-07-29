@@ -510,7 +510,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://downloader.disk.yandex.ru/preview/6781233bdc339ec4aaff9503c3dbd49d327e7d65b9faf9f4a32720551f3158af/5b5c80e6/_B0aXmp4RJTYYcc2mgnKlgFcEYoZcJUaC1VZYEWwzewQE_EBlPXO9934qvMsvriV_hS_gABosIn7_YOy6ZQz5g%3D%3D?uid=0&filename=Vittorio.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      attachment: 'https://psv4.userapi.com/c848328/u40777116/docs/d7/961cec30766d/Vittorio.png?extra=fp04896DLrVrNoIM9s-n2aLyjwaXWu3sYcmqN6HGpfgCa-rYbLs4TfPhAMYZVtY7bfb0Z3U1M4ZXZ9rRhUWGmOIivKR-kKNMVJJXPhL1trhq-P09Q_6v84pIHTQrsxt0wxpjEKz4',
       name: 'Vittirio.png'
    }]
 })
