@@ -144,7 +144,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://downloader.disk.yandex.ru/preview/250f51a142f44baaacf3e9072d5cf501b1366bd1f678b472f89b465d4d7afa6a/5b5c1eda/_B0aXmp4RJTYYcc2mgnKlsN4ZxawOZTInUxd7HOcouPFBB3R-fcOi_DE5xhrOsnOA4gYqX_7aivV4TIhsGVuEQ%3D%3D?uid=0&filename=Krag.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      attachment: 'https://vk.com/doc40777116_471280638',
       name: 'Krag.png'
    }]
 })
