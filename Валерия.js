@@ -144,7 +144,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://vk.com/doc40777116_471280638',
+      attachment: 'https://psv4.userapi.com/c834500/u40777116/docs/d14/1e9ce5806e76/Krag.png?extra=5nYM9h_jTPBiwEWpbjk8L6Utn-jXar5sbb0LrHgugMYD64f6ZFRDx45d9Cw0Ww_-AKSLohm7HyI0lq6fmSGMmDshQXRgqL_TNwkfJUSfmhh2ismPZCXnQ2DIntk3mmEdg3xDw4E_',
       name: 'Krag.png'
    }]
 })
