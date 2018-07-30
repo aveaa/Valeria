@@ -47,7 +47,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://downloader.disk.yandex.ru/preview/f1dfba7a5195e0150e8d88876a2303e1e696aa0607655606b81645d7c0bf244e/5b5c1574/_B0aXmp4RJTYYcc2mgnKliqlFqb3V9vhamPlRlyisAlUKQAMdaNljKlmFMHAipEzVaH7kXIRF-M82VAHLnVIAQ%3D%3D?uid=0&filename=Djalib.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      attachment: 'https://downloader.disk.yandex.ru/preview/c2d6feedd771ddc88a9aeb857924e2532838dab51ab171afa21f6537869481e2/5b5ecf4a/_B0aXmp4RJTYYcc2mgnKlo9meLG0OlHd1nwI2B2GKLOfQjhLqbhWH5FN3BJM9e2y1VK7G1XyLREcXEXsBG2EYg%3D%3D?uid=0&filename=Iris.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
       name: 'Win hero.png'
    }]
 })
