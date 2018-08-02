@@ -55,6 +55,25 @@ message.channel.send({
 .catch(console.error);
 }
 
+if(message.content.startsWith(prefix + 'map')) {
+        message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+message.channel.send({
+  embed: {
+    thumbnail: {
+         url: 'attachment://file.h5m'
+      }
+   },
+   files: [{
+      attachment: 'https://docviewer.yandex.ru/view/432648688/?*=S2VlO72DPExC0cUkU4lK3bjvG2x7InVybCI6InlhLWRpc2stcHVibGljOi8vRk1ZYmlNbEExUmJZRGNOTExkN1dUTG9RUlFsZGVpUW1SWFMrb1VVbnFLVT0iLCJ0aXRsZSI6IklzbGFuZCBvZiBkYXJrbmVzcyBhbmQgbGlnaHQuaDVtIiwidWlkIjoiNDMyNjQ4Njg4IiwieXUiOiI4MTA2MTEwNTE0NTQ3MDU0MTIiLCJub2lmcmFtZSI6ZmFsc2UsInRzIjoxNTMzMTg2MzY1NzUzfQ%3D%3D',
+      name: 'Map.h5m'
+   }]
+})
+.then(console.log)
+.catch(console.error);
+}
+
 let messageArray = message.content.split(" ");
 let args = messageArray.slice(1);    
     if(message.content.startsWith(prefix + 'calc')) {
