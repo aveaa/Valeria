@@ -66,7 +66,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://docviewer.yandex.ru/view/432648688/?*=S2VlO72DPExC0cUkU4lK3bjvG2x7InVybCI6InlhLWRpc2stcHVibGljOi8vRk1ZYmlNbEExUmJZRGNOTExkN1dUTG9RUlFsZGVpUW1SWFMrb1VVbnFLVT0iLCJ0aXRsZSI6IklzbGFuZCBvZiBkYXJrbmVzcyBhbmQgbGlnaHQuaDVtIiwidWlkIjoiNDMyNjQ4Njg4IiwieXUiOiI4MTA2MTEwNTE0NTQ3MDU0MTIiLCJub2lmcmFtZSI6ZmFsc2UsInRzIjoxNTMzMTg2MzY1NzUzfQ%3D%3D',
+      attachment: 'https://vk.com/doc40777116_471556135',
       name: 'Island of darkness and light.h5m'
    }]
 })
