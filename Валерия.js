@@ -66,7 +66,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://ru.files.fm/down.php?i=9j6c8v9h',
+      attachment: 'https://ru.files.fm/down.php?cf&i=9j6c8v9h&n=Island+of+darkness+and+light.h5m',
       name: 'Island of darkness and light.h5m'
    }]
 })
