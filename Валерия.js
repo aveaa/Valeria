@@ -66,8 +66,8 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://github.com/NorthTort/Valeria/raw/master/Island%20of%20darkness%20and%20light.h5m',
-      name: 'Island of darkness and light.h5m'
+      attachment: 'https://github.com/NorthTort/Valeria/raw/master/Hyberborey.h5m',
+      name: 'Hyberborey.h5m'
    }]
 })
 .then(console.log)
