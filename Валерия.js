@@ -66,8 +66,8 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://github.com/NorthTort/Valeria/raw/master/Hyberborey.h5m',
-      name: 'Hyberborey.h5m'
+      attachment: 'https://github.com/NorthTort/Valeria/raw/master/Hyberborey%20v.1.0.h5m',
+      name: 'Hyberborey v.1.0.h5m'
    }]
 })
 .then(console.log)
