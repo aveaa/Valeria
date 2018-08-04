@@ -26,7 +26,7 @@ var prefix = '!'
         message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error); 
-		message.channel.sendMessage('<:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> @everyone <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> \n Штайнер жмотит хентай!');
+		message.channel.sendMessage('<:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> @everyone <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> <:Liderstvo:456581505066729474> \n @Штайнер#2751 жмотит хентай!');
 	 }
 	  if(message.content.startsWith(prefix + 'say')) {
     const args = message.content.slice(prefix.length).split('say'); 
