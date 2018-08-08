@@ -41,7 +41,7 @@ message.channel.send({
       }
    },
    files: [{
-      attachment: 'https://downloader.disk.yandex.ru/preview/1cccd9f7a5126be56133589c58c036eb0dbd310e2f5e27d5b95bc86acd55e9a4/5b6b1dc0/_B0aXmp4RJTYYcc2mgnKlrmpH3rlZ_pkkratHtjudH_u8OZcReoJ1nn-XIbhq7MA4QZKY5x34Mg0QvIfpZ0LDw%3D%3D?uid=0&filename=Garuna.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
+      attachment: 'https://downloader.disk.yandex.ru/preview/7b9dbcd3207a3098141d1606f01944b50db92a977401d6f90513062fc0847afa/5b6b3c73/_B0aXmp4RJTYYcc2mgnKloswpv1ARFy5MRweYscUw3shDhsrgnY7448RIXMEN5rkzYXL-nlMbq2S4nT3a1UC_A%3D%3D?uid=0&filename=Deidra.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048',
       name: 'Win hero.png'
    }]
 })
