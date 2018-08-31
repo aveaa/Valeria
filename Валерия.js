@@ -34,7 +34,7 @@ var prefix = '!'
   .catch(console.error); 
 		message.channel.sendMessage('<:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> @everyone <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> \n Граждане Имперского города! Делайте ваши ставки! Кто победит в сегодняшнем турнире!? \n Кликайте по иконке претендента!');
 	 }
-	  if(message.message.member.roles.has('463487584283262976').content.startsWith(prefix + 'say')) {
+	  if(message.member.roles.has('463487584283262976').content.startsWith(prefix + 'say')) {
     const args = message.content.slice(prefix.length).split('say'); 
 	  message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
