@@ -42,6 +42,14 @@ var prefix = '!'
   .catch(console.error); 
      		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 	 }
+ 	 if (message.author.id !== '459701892382064641') return;
+	 if(message.content.startsWith(prefix + 'say')) {
+    const args = message.content.slice(prefix.length).split('say'); 
+	  message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error); 
+     		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
+	 }
 // Арты победителя
 if(message.content.startsWith(prefix + 'hero')) {
         message.delete()
