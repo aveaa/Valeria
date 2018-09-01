@@ -35,6 +35,7 @@ var prefix = '!'
 		message.channel.sendMessage('<:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> @everyone <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> \n Граждане Имперского города! Делайте ваши ставки! Кто победит в сегодняшнем турнире!? \n Кликайте по иконке претендента!');
 	 }
 	 if (message.author.id !== '386834372466049024') return;
+	 if (message.author.id !== '459701892382064641') return;
 	 if(message.content.startsWith(prefix + 'say')) {
     const args = message.content.slice(prefix.length).split('say'); 
 	  message.delete()
