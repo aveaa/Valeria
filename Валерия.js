@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-urFriendID = 386834372466049024
-urFriendID = 459701892382064641
+urFriendID = '386834372466049024'
+urFriendID = '459701892382064641'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
