@@ -34,7 +34,7 @@ var prefix = '!'
   .catch(console.error); 
 		message.channel.sendMessage('<:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> @everyone <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> <:KolesoUdachi:469348898058797058> \n Граждане Имперского города! Делайте ваши ставки! Кто победит в сегодняшнем турнире!? \n Кликайте по иконке претендента!');
 	 }
-	 if(message.clien.user.role.have('436925006115766283')) return;  
+	 if(message.member.roles.has(436925006115766283)) {  
 	 if(message.content.startsWith(prefix + 'say')) {
     const args = message.content.slice(prefix.length).split('say'); 
 	  message.delete()
@@ -42,6 +42,7 @@ var prefix = '!'
   .catch(console.error); 
      		message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 	 }
+	}
 // Арты победителя
 if(message.content.startsWith(prefix + 'hero')) {
         message.delete()
